@@ -32,4 +32,20 @@ public abstract class RecoverFromErrorsWithCompensatingAction {
             doAlternativeStuff();
         }
     }
+
+    /**
+     * Occasionally an error can be ignored; the correct compensating action is to do nothing. This is ok, as long as it
+     * is documented and marked as a compensating action.
+     */
+    public void recoverFromErrorByDoingNothing() {
+        try {
+            tryStuff();
+        } catch (UserException e) {
+            // tryStuff didn't work but no problem, we can do alternative stuff instead and everything is fine.
+            // No need to log this as an error, it has been recovered from.
+            // I've set e to null to indicate that it is being deliberately ignored.
+            // COMPENSATING_ACTION
+            e = null;
+        }
+    }
 }
