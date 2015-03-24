@@ -1,4 +1,4 @@
-package org.codestyle.errorhandling.yes;
+package org.codestyle.errorhandling.yes.errors;
 
 /**
  * RuntimeSystemException can be useful where the system cannot continue processing. Since there is no recovery

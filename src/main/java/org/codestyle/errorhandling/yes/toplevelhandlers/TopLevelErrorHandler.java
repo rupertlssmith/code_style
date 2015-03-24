@@ -1,4 +1,4 @@
-package org.codestyle.errorhandling.yes;
+package org.codestyle.errorhandling.yes.toplevelhandlers;
 
 /**
  * A TopLevelErrorHandler is used to provide consistent top-level error handling for unhandled exceptions. It is often

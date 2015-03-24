@@ -1,5 +1,7 @@
 package org.codestyle.errorhandling.yes;
 
+import org.codestyle.errorhandling.yes.errors.UserException;
+
 public abstract class RethrowExceptions {
     public abstract void tryStuff() throws UserException;
 

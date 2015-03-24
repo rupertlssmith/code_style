@@ -1,4 +1,4 @@
-package org.codestyle.errorhandling.yes;
+package org.codestyle.errorhandling.yes.errors;
 
 /**
  * UserException is an exception that the user of your code needs to know about.

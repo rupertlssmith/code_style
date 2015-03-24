@@ -1,6 +1,6 @@
 package org.codestyle.errorhandling.no;
 
-import org.codestyle.errorhandling.yes.UserException;
+import org.codestyle.errorhandling.yes.errors.UserException;
 
 public abstract class RethrowExceptionsWithoutCause {
     public abstract void tryStuff() throws UserException;

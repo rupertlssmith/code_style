@@ -1,5 +1,7 @@
 package org.codestyle.errorhandling.yes;
 
+import org.codestyle.errorhandling.yes.errors.UserException;
+
 import java.util.logging.Logger;
 
 public abstract class DebugOrWarnInCatchBlocks {

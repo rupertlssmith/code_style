@@ -1,4 +1,4 @@
-package org.codestyle.errorhandling.yes;
+package org.codestyle.errorhandling.yes.errors;
 
 /**
  * CheckedSystemException is useful when you want to be absolutely sure of where errors can occur in your code. By

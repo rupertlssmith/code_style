@@ -1,5 +1,9 @@
 package org.codestyle.errorhandling.yes;
 
+import org.codestyle.errorhandling.yes.errors.CheckedSystemException;
+import org.codestyle.errorhandling.yes.errors.RuntimeSystemException;
+import org.codestyle.errorhandling.yes.errors.UserException;
+
 public abstract class PromoteShowStoppersToSystemExceptions {
     public abstract void tryStuff() throws UserException;
 
@@ -19,7 +23,7 @@ public abstract class PromoteShowStoppersToSystemExceptions {
      *
      * <p/>Runtime system exceptions are preferred.
      *
-     * @throws CheckedSystemException A checked system exception.
+     * @throws org.codestyle.errorhandling.yes.errors.CheckedSystemException A checked system exception.
      */
     public void promoteShowStopperToChecked() throws CheckedSystemException {
         try {

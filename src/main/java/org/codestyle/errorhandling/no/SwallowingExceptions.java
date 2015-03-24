@@ -3,7 +3,7 @@ package org.codestyle.errorhandling.no;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.codestyle.errorhandling.yes.UserException;
+import org.codestyle.errorhandling.yes.errors.UserException;
 
 public abstract class SwallowingExceptions {
     /** Used for debugging purposes. */

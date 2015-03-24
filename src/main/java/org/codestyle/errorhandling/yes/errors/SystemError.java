@@ -1,4 +1,4 @@
-package org.codestyle.errorhandling.yes;
+package org.codestyle.errorhandling.yes.errors;
 
 /**
  * System exceptions could be runtimes or checked, it is debatable which is best. For this reason, it is worth defining
